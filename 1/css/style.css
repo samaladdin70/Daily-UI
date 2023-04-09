@@ -1,0 +1,82 @@
+h1 {
+    padding-top: 40%;
+    padding-bottom: 4%;
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+    color: dodgerblue !important;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+h3 {
+    text-align: right;
+    color: dodgerblue;
+    font-family: 'Cardo', serif;
+    font-weight: bold;
+}
+
+form {
+    transition: all .5s;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+form:hover {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+
+
+form .group-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form .group-input input {
+    padding: 5px 10px;
+    border: 0;
+    box-shadow: 0 0 3px 1px grey;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+form .group-input label {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 12px;
+}
+
+::placeholder {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 12px;
+    color: rgb(181, 180, 180);
+}
+
+.gender>label {
+    /* font-family: 'Rubik Mono One', sans-serif;
+    font-size: 12px; */
+}
